@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/abc/ws01_plumbing/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/base_interface
+[0.040s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.069s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.069s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.153s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.222s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.224s] -- Added test 'lint_cmake' to check CMake code style
+[0.225s] -- Added test 'xmllint' to check XML markup files
+[0.227s] -- Configuring done
+[0.229s] -- Generating done
+[0.230s] -- Build files have been written to: /home/abc/ws01_plumbing/build/base_interface
+[0.232s] Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/abc/ws01_plumbing/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/base_interface
+[0.235s] Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/base_interface -- -j12 -l12
+[0.274s] Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/base_interface -- -j12 -l12
+[0.321s] Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/base_interface
+[0.328s] -- Install configuration: ""
+[0.328s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/package_run_dependencies/base_interface
+[0.328s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/parent_prefix_path/base_interface
+[0.329s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/ament_prefix_path.sh
+[0.329s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/ament_prefix_path.dsv
+[0.329s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/path.sh
+[0.329s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/path.dsv
+[0.329s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.bash
+[0.329s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.sh
+[0.330s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.zsh
+[0.330s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.dsv
+[0.330s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/package.dsv
+[0.330s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/packages/base_interface
+[0.331s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake/base_interfaceConfig.cmake
+[0.332s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake/base_interfaceConfig-version.cmake
+[0.333s] -- Installing: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/package.xml
+[0.333s] Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/base_interface
