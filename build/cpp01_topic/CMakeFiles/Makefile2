@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/abc/ws01_plumbing/build/cpp01_topic
 
 # The main recursive "all" target.
 all: CMakeFiles/talker_str_cpp.dir/all
+all: CMakeFiles/listener_str_cpp.dir/all
 
 .PHONY : all
 
@@ -65,6 +66,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/talker_str_cpp.dir/clean
 clean: CMakeFiles/cpp01_topic_uninstall.dir/clean
+clean: CMakeFiles/listener_str_cpp.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
@@ -76,7 +78,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/talker_str_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles --progress-num=1,2 "Built target talker_str_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles --progress-num=3,4 "Built target talker_str_cpp"
 .PHONY : CMakeFiles/talker_str_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -122,6 +124,33 @@ cpp01_topic_uninstall: CMakeFiles/cpp01_topic_uninstall.dir/rule
 CMakeFiles/cpp01_topic_uninstall.dir/clean:
 	$(MAKE) -f CMakeFiles/cpp01_topic_uninstall.dir/build.make CMakeFiles/cpp01_topic_uninstall.dir/clean
 .PHONY : CMakeFiles/cpp01_topic_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/listener_str_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/listener_str_cpp.dir/all:
+	$(MAKE) -f CMakeFiles/listener_str_cpp.dir/build.make CMakeFiles/listener_str_cpp.dir/depend
+	$(MAKE) -f CMakeFiles/listener_str_cpp.dir/build.make CMakeFiles/listener_str_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles --progress-num=1,2 "Built target listener_str_cpp"
+.PHONY : CMakeFiles/listener_str_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/listener_str_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/listener_str_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles 0
+.PHONY : CMakeFiles/listener_str_cpp.dir/rule
+
+# Convenience name for target.
+listener_str_cpp: CMakeFiles/listener_str_cpp.dir/rule
+
+.PHONY : listener_str_cpp
+
+# clean rule for target.
+CMakeFiles/listener_str_cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/listener_str_cpp.dir/build.make CMakeFiles/listener_str_cpp.dir/clean
+.PHONY : CMakeFiles/listener_str_cpp.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir

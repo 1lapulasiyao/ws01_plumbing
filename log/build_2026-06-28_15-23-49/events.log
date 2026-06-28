@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000897] (-) JobUnselected: {'identifier': 'base_interface'}
+[0.000960] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000981] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interface', '/home/abc/ws01_plumbing/install/base_interface')])}
+[0.001058] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.013726] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.014919] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.016060] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abc/ws01_plumbing/build/cpp01_topic', '--', '-j12', '-l12'], 'cwd': '/home/abc/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_AGENT_PID', '1695'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1487'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28339'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abc/ws01_plumbing/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:37652'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:.:/home/abc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc:@/tmp/.ICE-unix/1732,unix/abc:/tmp/.ICE-unix/1732'), ('INVOCATION_ID', 'ca9f47ee3e6341fa9c7c3471212b76c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-14c45cc083edd487.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/b4033b02bfa4fc3e241d8bee59a51e7a/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7864a794f6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ws01_plumbing/install/py01_topic:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/base_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic')]), 'shell': False}
+[0.068593] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener_str_cpp\x1b[0m\n'}
+[0.081130] (cpp01_topic) StdoutLine: {'line': b'[ 50%] Built target talker_str_cpp\n'}
+[0.099112] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener_str_cpp.dir/src/listener_str_cpp.cpp.o\x1b[0m\n'}
+[0.099373] (-) TimerEvent: {}
+[0.199699] (-) TimerEvent: {}
+[0.300109] (-) TimerEvent: {}
+[0.400535] (-) TimerEvent: {}
+[0.500859] (-) TimerEvent: {}
+[0.601294] (-) TimerEvent: {}
+[0.701755] (-) TimerEvent: {}
+[0.802137] (-) TimerEvent: {}
+[0.902479] (-) TimerEvent: {}
+[1.002749] (-) TimerEvent: {}
+[1.103069] (-) TimerEvent: {}
+[1.203383] (-) TimerEvent: {}
+[1.303713] (-) TimerEvent: {}
+[1.404116] (-) TimerEvent: {}
+[1.504529] (-) TimerEvent: {}
+[1.604935] (-) TimerEvent: {}
+[1.705354] (-) TimerEvent: {}
+[1.805720] (-) TimerEvent: {}
+[1.906055] (-) TimerEvent: {}
+[2.006382] (-) TimerEvent: {}
+[2.106697] (-) TimerEvent: {}
+[2.207004] (-) TimerEvent: {}
+[2.307317] (-) TimerEvent: {}
+[2.407624] (-) TimerEvent: {}
+[2.507968] (-) TimerEvent: {}
+[2.608464] (-) TimerEvent: {}
+[2.708783] (-) TimerEvent: {}
+[2.809121] (-) TimerEvent: {}
+[2.909468] (-) TimerEvent: {}
+[3.009823] (-) TimerEvent: {}
+[3.110142] (-) TimerEvent: {}
+[3.210459] (-) TimerEvent: {}
+[3.310771] (-) TimerEvent: {}
+[3.411083] (-) TimerEvent: {}
+[3.511397] (-) TimerEvent: {}
+[3.611769] (-) TimerEvent: {}
+[3.712080] (-) TimerEvent: {}
+[3.812414] (-) TimerEvent: {}
+[3.912746] (-) TimerEvent: {}
+[4.013141] (-) TimerEvent: {}
+[4.113519] (-) TimerEvent: {}
+[4.214087] (-) TimerEvent: {}
+[4.314447] (-) TimerEvent: {}
+[4.414813] (-) TimerEvent: {}
+[4.515159] (-) TimerEvent: {}
+[4.615522] (-) TimerEvent: {}
+[4.715888] (-) TimerEvent: {}
+[4.816263] (-) TimerEvent: {}
+[4.916633] (-) TimerEvent: {}
+[5.017110] (-) TimerEvent: {}
+[5.117504] (-) TimerEvent: {}
+[5.217842] (-) TimerEvent: {}
+[5.318098] (-) TimerEvent: {}
+[5.418456] (-) TimerEvent: {}
+[5.518817] (-) TimerEvent: {}
+[5.619144] (-) TimerEvent: {}
+[5.719469] (-) TimerEvent: {}
+[5.819830] (-) TimerEvent: {}
+[5.874356] (cpp01_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener_str_cpp\x1b[0m\n'}
+[5.919948] (-) TimerEvent: {}
+[6.020285] (-) TimerEvent: {}
+[6.120629] (-) TimerEvent: {}
+[6.149717] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target listener_str_cpp\n'}
+[6.160872] (cpp01_topic) CommandEnded: {'returncode': 0}
+[6.199838] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'install'}
+[6.215903] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abc/ws01_plumbing/build/cpp01_topic'], 'cwd': '/home/abc/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'abc'), ('SSH_AGENT_PID', '1695'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/abc'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.126.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1487'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '28339'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/abc/ws01_plumbing/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'abc'), ('JOURNAL_STREAM', '8:37652'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'abc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:.:/home/abc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/abc:@/tmp/.ICE-unix/1732,unix/abc:/tmp/.ICE-unix/1732'), ('INVOCATION_ID', 'ca9f47ee3e6341fa9c7c3471212b76c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abc/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-14c45cc083edd487.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/abc/.config/Code/User/workspaceStorage/b4033b02bfa4fc3e241d8bee59a51e7a/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7864a794f6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/abc/ws01_plumbing/install/py01_topic:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/base_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/abc/ws01_plumbing/build/cpp01_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/abc/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic')]), 'shell': False}
+[6.220747] (-) TimerEvent: {}
+[6.232844] (cpp01_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.233219] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/talker_str_cpp\n'}
+[6.233510] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/abc/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/listener_str_cpp\n'}
+[6.235979] (cpp01_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/abc/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/listener_str_cpp" to ""\n'}
+[6.236434] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic\n'}
+[6.236700] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic\n'}
+[6.236880] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh\n'}
+[6.237048] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv\n'}
+[6.237173] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh\n'}
+[6.237295] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv\n'}
+[6.237415] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash\n'}
+[6.237536] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh\n'}
+[6.237976] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh\n'}
+[6.238469] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv\n'}
+[6.239894] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv\n'}
+[6.241914] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic\n'}
+[6.242489] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake\n'}
+[6.242854] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake\n'}
+[6.243158] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml\n'}
+[6.243477] (cpp01_topic) CommandEnded: {'returncode': 0}
+[6.309654] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 0}
+[6.310573] (-) EventReactorShutdown: {}

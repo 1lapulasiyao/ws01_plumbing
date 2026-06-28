@@ -1,4 +1,5 @@
 /home/abc/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/talker_str_cpp
+/home/abc/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/listener_str_cpp
 /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
 /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
 /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
