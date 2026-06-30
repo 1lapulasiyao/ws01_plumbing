@@ -1,2 +1,0 @@
-Invoking command in '/home/abc/ws01_plumbing/build/base_interface': /usr/bin/cmake /home/abc/ws01_plumbing/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/base_interface
-Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '1': /usr/bin/cmake /home/abc/ws01_plumbing/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/base_interface
