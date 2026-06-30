@@ -1,0 +1,21 @@
+[0.019s] Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/base_interface -- -j12 -l12
+[0.063s] Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/base_interface -- -j12 -l12
+[0.104s] Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/base_interface
+[0.117s] -- Install configuration: ""
+[0.118s] -- Execute custom install script
+[0.118s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/package_run_dependencies/base_interface
+[0.119s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/parent_prefix_path/base_interface
+[0.119s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/ament_prefix_path.dsv
+[0.120s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/path.sh
+[0.120s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/path.dsv
+[0.121s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.bash
+[0.121s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.sh
+[0.122s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.zsh
+[0.122s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.dsv
+[0.123s] -- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/package.dsv
+[0.137s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/packages/base_interface
+[0.138s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake/base_interfaceConfig.cmake
+[0.138s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake/base_interfaceConfig-version.cmake
+[0.139s] -- Up-to-date symlink: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/package.xml
+[0.142s] Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/base_interface

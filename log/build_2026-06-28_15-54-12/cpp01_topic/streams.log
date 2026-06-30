@@ -1,0 +1,46 @@
+[0.024s] Invoking command in '/home/abc/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[0.057s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.150s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.338s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.353s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.482s] -- Found base_interface: 0.0.0 (/home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake)
+[0.482s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.541s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.541s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.542s] -- Configured cppcheck include dirs: 
+[0.542s] -- Configured cppcheck exclude dirs and/or files: 
+[0.542s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.543s] -- Configured cpplint exclude dirs and/or files: 
+[0.543s] -- Added test 'lint_cmake' to check CMake code style
+[0.543s] -- Added test 'uncrustify' to check C / C++ code style
+[0.543s] -- Configured uncrustify additional arguments: 
+[0.543s] -- Added test 'xmllint' to check XML markup files
+[0.545s] -- Configuring done
+[0.548s] -- Generating done
+[0.549s] -- Build files have been written to: /home/abc/ws01_plumbing/build/cpp01_topic
+[0.585s] Invoked command in '/home/abc/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[0.618s] Invoking command in '/home/abc/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp01_topic
+[0.624s] -- Install configuration: ""
+[0.624s] -- Execute custom install script
+[0.625s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[0.638s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[0.647s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[0.660s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[0.672s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[0.686s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[0.693s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[0.703s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[0.715s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[0.729s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[0.744s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[0.751s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[0.763s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[0.775s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[0.789s] -- Symlinking: /home/abc/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[0.804s] Invoked command in '/home/abc/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic:/home/abc/ws01_plumbing/install/py01_topic:/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/cpp01_topic

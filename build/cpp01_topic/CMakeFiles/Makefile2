@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/abc/ws01_plumbing/build/cpp01_topic
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/talker_str_cpp.dir/all
+all:
 
 .PHONY : all
 
@@ -63,38 +63,10 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/talker_str_cpp.dir/clean
 clean: CMakeFiles/cpp01_topic_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/talker_str_cpp.dir
-
-# All Build rule for target.
-CMakeFiles/talker_str_cpp.dir/all:
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/depend
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles --progress-num=1,2 "Built target talker_str_cpp"
-.PHONY : CMakeFiles/talker_str_cpp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/talker_str_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/talker_str_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles 0
-.PHONY : CMakeFiles/talker_str_cpp.dir/rule
-
-# Convenience name for target.
-talker_str_cpp: CMakeFiles/talker_str_cpp.dir/rule
-
-.PHONY : talker_str_cpp
-
-# clean rule for target.
-CMakeFiles/talker_str_cpp.dir/clean:
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/clean
-.PHONY : CMakeFiles/talker_str_cpp.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/cpp01_topic_uninstall.dir

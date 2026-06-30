@@ -68,6 +68,18 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -123,18 +135,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles /home/abc/ws01_plumbing/build/cpp01_topic/CMakeFiles/progress.marks
@@ -168,19 +168,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named talker_str_cpp
-
-# Build rule for target.
-talker_str_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 talker_str_cpp
-.PHONY : talker_str_cpp
-
-# fast build rule for target.
-talker_str_cpp/fast:
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/build
-.PHONY : talker_str_cpp/fast
-
-#=============================================================================
 # Target rules for targets named cpp01_topic_uninstall
 
 # Build rule for target.
@@ -206,33 +193,6 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/talker_str_cpp.o: src/talker_str_cpp.cpp.o
-
-.PHONY : src/talker_str_cpp.o
-
-# target to build an object file
-src/talker_str_cpp.cpp.o:
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/src/talker_str_cpp.cpp.o
-.PHONY : src/talker_str_cpp.cpp.o
-
-src/talker_str_cpp.i: src/talker_str_cpp.cpp.i
-
-.PHONY : src/talker_str_cpp.i
-
-# target to preprocess a source file
-src/talker_str_cpp.cpp.i:
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/src/talker_str_cpp.cpp.i
-.PHONY : src/talker_str_cpp.cpp.i
-
-src/talker_str_cpp.s: src/talker_str_cpp.cpp.s
-
-.PHONY : src/talker_str_cpp.s
-
-# target to generate assembly for a file
-src/talker_str_cpp.cpp.s:
-	$(MAKE) -f CMakeFiles/talker_str_cpp.dir/build.make CMakeFiles/talker_str_cpp.dir/src/talker_str_cpp.cpp.s
-.PHONY : src/talker_str_cpp.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,18 +200,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... install/local"
-	@echo "... talker_str_cpp"
 	@echo "... cpp01_topic_uninstall"
 	@echo "... uninstall"
-	@echo "... src/talker_str_cpp.o"
-	@echo "... src/talker_str_cpp.i"
-	@echo "... src/talker_str_cpp.s"
 .PHONY : help
 
 

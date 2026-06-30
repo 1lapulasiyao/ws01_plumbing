@@ -1,0 +1,27 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abc/ws01_plumbing/build/base_interface
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/package_run_dependencies/base_interface
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/parent_prefix_path/base_interface
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/path.sh
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/environment/path.dsv
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.bash
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.sh
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.zsh
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/local_setup.dsv
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/package.dsv
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/ament_index/resource_index/packages/base_interface
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake/base_interfaceConfig.cmake
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/cmake/base_interfaceConfig-version.cmake
+-- Symlinking: /home/abc/ws01_plumbing/install/base_interface/share/base_interface/package.xml

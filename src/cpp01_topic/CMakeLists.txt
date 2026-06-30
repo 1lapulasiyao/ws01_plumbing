@@ -11,16 +11,9 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(base_interface REQUIRED)
 
-add_executable(talker_str_cpp src/talker_str_cpp.cpp)
-ament_target_dependencies(
-  talker_str_cpp
-  "rclcpp"
-  "std_msgs"
-)
 
-install(TARGETS 
-        talker_str_cpp 
-        DESTINATION lib/${PROJECT_NAME})
+
+install(TARGETS DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

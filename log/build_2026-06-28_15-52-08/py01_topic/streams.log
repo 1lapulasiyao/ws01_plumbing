@@ -1,0 +1,16 @@
+[0.607s] Invoking command in '/home/abc/ws01_plumbing/build/py01_topic': CMAKE_PREFIX_PATH=/home/abc/ws01_plumbing/install/base_interface:/home/abc/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/abc/ws01_plumbing/build/py01_topic/prefix_override:/home/abc/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/abc/ws01_plumbing/build/py01_topic/build --no-deps install_data
+[0.792s] running develop
+[0.899s] running egg_info
+[0.899s] writing py01_topic.egg-info/PKG-INFO
+[0.899s] writing dependency_links to py01_topic.egg-info/dependency_links.txt
+[0.900s] writing entry points to py01_topic.egg-info/entry_points.txt
+[0.900s] writing requirements to py01_topic.egg-info/requires.txt
+[0.900s] writing top-level names to py01_topic.egg-info/top_level.txt
+[0.933s] reading manifest file 'py01_topic.egg-info/SOURCES.txt'
+[0.933s] writing manifest file 'py01_topic.egg-info/SOURCES.txt'
+[0.958s] running build_ext
+[0.959s] Creating /home/abc/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages/site.py
+[0.960s] Creating /home/abc/ws01_plumbing/install/py01_topic/lib/python3.8/site-packages/py01-topic.egg-link (link to .)
+[0.961s] 
+[0.961s] Installed /home/abc/ws01_plumbing/build/py01_topic
+[0.961s] running install_data
