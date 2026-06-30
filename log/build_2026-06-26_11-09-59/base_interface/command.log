@@ -1,6 +1,0 @@
-Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/abc/ws01_plumbing/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/base_interface
-Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/abc/ws01_plumbing/src/base_interface -DCMAKE_INSTALL_PREFIX=/home/abc/ws01_plumbing/install/base_interface
-Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/base_interface -- -j12 -l12
-Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/abc/ws01_plumbing/build/base_interface -- -j12 -l12
-Invoking command in '/home/abc/ws01_plumbing/build/base_interface': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/base_interface
-Invoked command in '/home/abc/ws01_plumbing/build/base_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/abc/ws01_plumbing/build/base_interface
