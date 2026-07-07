@@ -1,7 +1,8 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
     "python.analysis.extraPaths": [
-        "/opt/ros/galactic/lib/python3.8/site-packages"
+        "/opt/ros/galactic/lib/python3.8/site-packages",
+        "/home/abc/ws01_plumbing/install/base_interface/lib/python3.8/site-packages"
     ],
     "cmake.sourceDirectory": "/home/abc/ws01_plumbing/src/base_interface"
 }

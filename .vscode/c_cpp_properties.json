@@ -4,7 +4,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/ros/galactic/include/**"
+                "/opt/ros/galactic/include/**",
+                "${workspaceFolder}/install/base_interface/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

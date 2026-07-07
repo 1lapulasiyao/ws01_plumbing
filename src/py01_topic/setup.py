@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'talker_str_py = py01_topic.talker_str_py:main',
-            'listener_str_py = py01_topic.listener_str_py:main'
+            'talker_stu_py = py01_topic.talker_stu_py:main',
+            'listener_str_py = py01_topic.listener_str_py:main',
+            'listener_stu_py = py01_topic.listener_stu_py:main'
         ],
     },
 )
