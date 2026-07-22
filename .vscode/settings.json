@@ -4,5 +4,10 @@
         "/opt/ros/galactic/lib/python3.8/site-packages",
         "/home/abc/ws01_plumbing/install/base_interface/lib/python3.8/site-packages"
     ],
-    "cmake.sourceDirectory": "/home/abc/ws01_plumbing/src/base_interface"
+    "cmake.sourceDirectory": "/home/abc/ws01_plumbing/src/base_interface",
+    "files.associations": {
+        "package.xml": "xml",        // 只针对这个文件名强制切回 XML
+        "*.urdf": "urdf",            // 其他 .urdf 文件依然交给 URDF 扩展
+        "*.xacro": "xacro"
+    }
 }
